@@ -1,30 +1,84 @@
-.header{
-	background-color: yellow;
+.top_header{
+overflow: hidden;
+}
+.logo{
+	width: 30%;
 	height: 100px;
-}
-.nav{
-	background-color: yellow;
-	height: 300px;
-	width: 20%;
+	background-color: indigo;
 	float: left;
-	margin-right: 10px;
 }
-.article{
-	background-color: yellow;
-	height: 300px;
-	width: 58%;
-	float: left;
+.banner{
+	width: 65%;
+	height: 100px;
+	background-color: lightcoral;
+	float: right;
 
 }
-.sidebar{
-	background-color: yellow;
-	height: 300px;
-	width: 20%;
-	float: right;
+.header_bar{
+	height: 100px;
+	background-color: lightgreen;
+	margin-top: 30px;
 }
 .content{
 	margin-top: 30px;
 	overflow: hidden;
+	margin-bottom: 30px;
+
+}
+.left{
+	width: 20%;
+	height: 400px;
+	background-color: mediumseagreen;
+	float: left;
+
+
+}
+.middle{
+	width: 50%;
+	height: 400px;
+	background-color: moccasin;
+	float: left;
+	margin-left: 5%;
+}
+.top{
+	height: 100px;
+	background-color: pink;
+}
+.center{
+	height: 200px;
+	background-color: orange;
+
+}
+.left-center{
+	width: 50%;
+	height:200px;
+	background-color: lime;
+	float: left;
+
+
+}
+.right-center{
+	height:200px;
+	width: 50%;
+	background-color: darkred; 
+	float: right;
+
+}
+.bottom{
+	height: 100px;
+	background-color: pink;
+
+}
+.right{
+	width: 20%;
+	height: 400px;
+	background-color: olive;
+	float: right;
+
+}
+h1{
+	margin: 0;
+
 }
 footer{
 	background-color: indigo;
